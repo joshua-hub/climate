@@ -1,0 +1,47 @@
+phys3071 ws14/15 melsom 42593249 
+
+Problem 2:
+1)
+a = 0.006441x
+b = -12.516860
+E/n = 1.279371
+sqrt(E/n) \approx 1.1
+
+Our assignment sheet states that if E/n is significantly greater than 1 then a 
+linear model does not fit the data. I did read through some linear regression 
+statistical pages, and I couldn't find how 'significant' would be defined. 
+I would not say that 1.28 is significantly larger than 1, and by looking at my
+plot I would say that a linear model does best describe the full data set, 
+however there is some variation in the model which could also be described with
+more complicated functions.
+
+2)
+a = 0.012306
+b = -24.155854
+E/n = 0.815008
+sqrt(E/n) \approx 0.9
+
+This error is less than 1, which I would say significantly increases the 
+linearity of the data (within these bounds). It is also aparent by looking at 
+the plot visually that there is less non-linearity in the function, this is not
+of any mathematical argument though. But minimiming the average error, means 
+that the line of best fit is closer to all of the data points than a larger 
+E/n.
+
+
+3)
+Using the equation for the line of best fit over the while data set, 
+Temperature anomaly = 0.006441*(year) -12.516860; in 2050, Temperature anomaly 
+in 2050 will be 0.68719
+
+
+Problem 5:
+The 5 maximum temperature anomalies in this dataset are as follows
+Temperature anomaly  	 Date 
+0.793200 		           2002.166667
+0.855300 		           1998.166667
+0.794600 		           2010.250000
+0.783700 		           2002.250000
+0.854000 		           2007.083333
+
+Note: 2002.000 is january 2002, 2002.083 is february 2002, etc.
